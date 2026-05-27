@@ -1,0 +1,30 @@
+# Entornos virtuales
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Datos pesados (regenerables)
+volumes/hdfs/processed/
+volumes/hdfs/features/
+volumes/hdfs/raw/
+mongodb/data/
+lstm/data/demanda_clean.csv
+
+# Modelos entrenados
+lstm/model/*.pt
+lstm/model/*.pkl
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml

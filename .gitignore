@@ -10,6 +10,7 @@ volumes/hdfs/features/
 volumes/hdfs/raw/
 mongodb/data/
 lstm/data/demanda_clean.csv
+rapidminer/data/sgcc_data.csv
 
 # Modelos entrenados
 lstm/model/*.pt

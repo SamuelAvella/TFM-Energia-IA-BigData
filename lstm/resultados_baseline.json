@@ -1,0 +1,10 @@
+{
+  "modelo": "naive_estacional_lag168",
+  "periodo_test": "2026-01-01 00:00:00 \u2192 2026-04-30 21:00:00",
+  "n_predicciones": 2878,
+  "metricas": {
+    "MAE_MW": 1430.42,
+    "RMSE_MW": 2332.27,
+    "MAPE_pct": 5.11
+  }
+}

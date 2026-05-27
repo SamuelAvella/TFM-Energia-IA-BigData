@@ -1,0 +1,20 @@
+{
+  "modelo": "LSTM PyTorch",
+  "arquitectura": "LSTM(128) \u2192 Dropout \u2192 LSTM(64) \u2192 Dropout \u2192 Dense(48)",
+  "parametros": 123952,
+  "entrenamiento": {
+    "epochs_totales": 19,
+    "mejor_epoch": 11,
+    "mejor_val_loss": 0.0994953823304086
+  },
+  "metricas_test": {
+    "MAE_MW": 922.13,
+    "RMSE_MW": 1213.76,
+    "MAPE_pct": 3.34
+  },
+  "comparativa_baseline": {
+    "MAPE_naive_pct": 5.11,
+    "MAPE_lstm_pct": 3.34,
+    "mejora_pct": 34.73
+  }
+}
